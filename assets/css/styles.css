@@ -1,6 +1,44 @@
-h1{
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+h1{ 
+    
     text-align: center; 
     background-color: cyan;
     font-weight: 900;
     text-transform: uppercase;
-} 
+    border: 7px solid black;
+}
+img{
+    width: 300px;
+}
+
+.img-cat {
+    width: 500px;
+}
+.titulo{
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+    border-radius: 2px;
+}
+
+.index-button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 9px;
+}
+.p-cat, .p-dog{
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+    border-radius: 2px;
+}
+.pet-information p {
+    width: 300px;
+        background-color: rgb(58, 42, 33);
+    color: rgb(255, 255, 255);
+}
