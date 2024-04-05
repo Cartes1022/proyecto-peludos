@@ -56,8 +56,20 @@ img{
 .titulo{
     margin: 0 auto;
     text-align: center;
-    /* width: 1000px; */
+    width: 1000px;
     border-radius: 2px;
+}
+.nosotros{
+    margin: 0 auto;
+    /* text-align: center; */
+    width: 1000px;
+    font-size: large;
+    font-weight: 700;
+    border-radius: 2px;
+}
+.nosotros-img {
+    width: 60%;
+    margin:100px 250px
 }
 
 .index-button {
@@ -74,6 +86,14 @@ img{
     width: 1000px;
     border-radius: 2px;
 }
+.cats-color, .dogs-color {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.cats-color:hover , .dogs-color:hover {
+    color: #c4c6c7;
+}
 .pet-information {
     margin: 100px 30% 100px 30%;
 }
@@ -81,4 +101,33 @@ img{
     width: 300px;
         background-color: rgb(58, 42, 33);
     color: rgb(255, 255, 255);
+}
+
+.contact-form-container {
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+    
+}
+
+.contact-form {
+    display: inline-block;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: vertical;
 }

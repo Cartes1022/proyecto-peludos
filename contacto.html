@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Contacto - ONG Ayuda a un Peludo</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-container">
+            <nav class="nav-links">
+                <a class="links" href="../index.html">inicio</a>
+                <a class="links" href="">nosotros</a>
+                <a class="links" href="../perros/perro.html">perros</a>
+                <a class="links" href="../gatos/gato.html">gatos</a>
+                <a class="links" href="">contactos</a>
+            </nav>
+        </div>
+        <div class="container-main" >
+    <h1>Contacto</h1>
+    <p>¡Estamos aquí para ayudarte! No dudes en contactarnos.</p>
+    
+    <!-- Información de contacto -->
+    <h2>Información de Contacto</h2>
+    <ul>
+        <li><strong>Teléfono:</strong> +569 99887766 </li>
+        <li><strong>Correo electrónico:</strong> info@ayudaunpeludo.org</li>
+    </ul>
+  
+    <div class="contact-form-container">
+        <h2>Envíanos un mensaje</h2>
+        <form class="contact-form" action="enviar.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+    
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br>
+    
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    
+
+</div>
+</div>
+</body>
+</html>
